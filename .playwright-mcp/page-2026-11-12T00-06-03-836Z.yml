@@ -1,0 +1,96 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "BioPatch, inicio" [ref=e4] [cursor=pointer]:
+      - /url: ./
+      - generic [ref=e5]: ✳
+      - text: BioPatch
+      - generic [ref=e6]: PROTOTIPO
+    - link "Acerca del análisis ↗" [ref=e7] [cursor=pointer]:
+      - /url: "#fundamento"
+  - main [ref=e8]:
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: ANÁLISIS DIGITAL DEL COLOR
+      - heading [level=1] [ref=e12]:
+        - text: Una lectura de color.
+        - emphasis [ref=e13]: Una referencia para seguir.
+      - paragraph [ref=e14]: Estima el pH de tu tira con una fotografía. Un análisis experimental, con sus límites siempre a la vista.
+    - generic [ref=e15]:
+      - strong [ref=e16]: ⓘ Uso experimental
+      - generic [ref=e17]: Los intervalos sirven para demostrar el funcionamiento del software. No son umbrales clínicos validados para diagnosticar infecciones.
+    - list [ref=e18]:
+      - listitem [ref=e19]: 01 Fotografía
+      - listitem [ref=e20]: 02 Referencias
+      - listitem [ref=e21]: 03 Resultado
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: EMPIEZA AQUÍ
+            - heading "Fotografía de la muestra" [level=2] [ref=e27]
+          - generic [ref=e28]: 100% local
+        - generic [ref=e29]:
+          - generic [ref=e30]: ▣
+          - heading "La tira y la tabla, juntas" [level=3] [ref=e31]
+          - paragraph [ref=e32]: Incluye la tira usada y los 14 colores de referenciaen una misma foto, con iluminación uniforme.
+          - generic [ref=e33]:
+            - button "Abrir cámara" [ref=e34] [cursor=pointer]
+            - button "↑ Cargar fotografía" [ref=e35] [cursor=pointer]
+          - text: JPG, PNG o WebP · Hasta 20 MB
+        - status
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - text: 01 / Luz uniforme
+            - paragraph [ref=e38]: Evita sombras, reflejos y filtros.
+          - generic [ref=e39]:
+            - text: 02 / Todo en foco
+            - paragraph [ref=e40]: Acerca la cámara sin cortar la tabla.
+          - generic [ref=e41]:
+            - text: 03 / Sigue las instrucciones
+            - paragraph [ref=e42]: Respeta el tiempo de lectura del fabricante.
+      - complementary [ref=e43]:
+        - region "Resultado del análisis" [ref=e44]:
+          - paragraph [ref=e45]: TU LECTURA
+          - heading "Resultado del análisis" [level=2] [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - text: —
+              - generic [ref=e49]: Aún no hay una lectura
+            - paragraph [ref=e50]: El resultado aparecerá después de seleccionar las referencias y analizar la tira.
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: GUÍA DEL PROTOTIPO
+          - heading "Escala experimental" [level=2] [ref=e53]
+          - generic [ref=e54]:
+            - generic [ref=e56]:
+              - text: Ácido
+              - generic [ref=e57]: Nivel 1
+            - generic [ref=e58]: pH 4–6
+          - generic [ref=e59]:
+            - generic [ref=e61]:
+              - text: Neutro
+              - generic [ref=e62]: Nivel 2
+            - generic [ref=e63]: pH 7
+          - generic [ref=e64]:
+            - generic [ref=e66]:
+              - text: Alcalino
+              - generic [ref=e67]: Nivel 3
+            - generic [ref=e68]: pH 8–9
+          - generic [ref=e69]:
+            - generic [ref=e71]:
+              - text: Fuera del intervalo
+              - generic [ref=e72]: Sin interpretación clínica
+            - generic [ref=e73]: 1–3 / 10–14
+          - paragraph [ref=e74]: Los colores identifican categorías experimentales. No indican presencia ni gravedad de una infección.
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - paragraph [ref=e77]: TRANSPARENCIA DESDE EL INICIO
+        - heading "Medir un color no es diagnosticar." [level=2] [ref=e78]
+      - generic [ref=e79]:
+        - paragraph [ref=e80]: Este prototipo compara colores, sin inteligencia artificial. Una lectura aislada no permite determinar evolución, alcalinidad persistente ni infección. No sustituye una valoración profesional.
+        - paragraph [ref=e81]: La bibliografía describe relaciones entre pH y cicatrización, pero no valida los límites de este semáforo. El rango 4–6 descrito para piel normal no demuestra que una herida esté sana.
+        - link "Consultar fundamento científico · Weigelt et al., 2022 ↗" [ref=e82] [cursor=pointer]:
+          - /url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8982127/
+        - paragraph [ref=e83]: La precisión del método y la adecuación de estas tiras para exudado requieren validación. No se guarda historial; cualquier comparación con lecturas previas se realiza fuera de la aplicación.
+  - contentinfo [ref=e84]:
+    - generic [ref=e85]: ✳ BioPatch
+    - generic [ref=e86]: Color como referencia. Contexto para interpretar.
+    - generic [ref=e87]: experimental-1
